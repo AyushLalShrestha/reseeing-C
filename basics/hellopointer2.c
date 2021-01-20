@@ -11,5 +11,6 @@ void main()
     int a = 10;
     xyz(a++, &a);
     xyz(a++, &a);
+    a = a++;
     printf("%d", a);
 }
